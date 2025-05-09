@@ -1,0 +1,83 @@
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem 8vw 2rem 8vw;
+}
+
+.left {
+  flex: 1;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background: #000;
+  color: #FFFDFB;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #ffeb9c;
+  color: #000;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #FFFDFB;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px #D9E3E1;
+  padding: 1.2rem 1rem;
+  flex: 1;
+  min-width: 180px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.star, .heart, .eye {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.illustration {
+  width: 420px;
+  max-width: 100%;
+} 

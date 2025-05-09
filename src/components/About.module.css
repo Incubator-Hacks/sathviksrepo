@@ -1,0 +1,49 @@
+.about {
+  padding: 4rem 8vw 2rem 8vw;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.text {
+  flex: 2;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.photoFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(-7deg);
+}
+
+.photo {
+  width: 260px;
+  height: 180px;
+  background: #000;
+  border: 10px solid #FFFDFB;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 4px 16px #D9E3E1;
+}
+
+.caption {
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: bold;
+  background: #FFFDFB;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+} 

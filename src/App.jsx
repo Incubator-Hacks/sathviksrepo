@@ -1,0 +1,10 @@
+import Sponsors from "./components/Sponsors";
+import styles from "./App.module.css";
+
+export default function App() {
+  return (
+    <div className={styles.appBg}>
+      <Sponsors />
+    </div>
+  );
+} 
